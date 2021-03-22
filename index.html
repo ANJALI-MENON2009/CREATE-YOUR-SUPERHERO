@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PROJECT 88</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="fabric.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+<body class="body_background">
+
+	<center>
+
+	<h2  class="btn-primary">CREATE YOUR SUPERHERO</h2>
+
+	<div id="head_info" class="btn-danger">
+		<h3>Current Width  =  <span id="current_Width">30 </span> </h3>
+		<h3>Current Height  = <span id="current_Height">30 </span></h3>
+	</div>
+	<button id="view" onclick="view_instructions()" style="background-color: black; color: red; font-weight: bolder; margin: 10px; font-size: 20px; border: 2px; border-color: white;">
+		View instructions
+	</button>
+	<div>
+	<button id="hide" onclick="hide_instructions()" style="background-color: black; color: red; font-weight: bolder; margin: 10px; font-size: 20px; border: 2px; border-color: white; display: none;">
+		Hide instructions
+	</button> </div>
+	<label id="blank" style="color: white; font-size: 18px;">  </label>
+		<canvas width="1000" height="700" id="myCanvas">
+		</canvas>
+	</center>
+	<script src="main.js"></script>
+</body>
+</html>
